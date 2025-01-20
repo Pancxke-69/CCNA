@@ -7,4 +7,3 @@
 * You can retake module exams to get better scores (Like in JCAC) "Around 26 or 27 questions on average (depends)" "75 question test bank"
 * 2 Final exams (1. Questions from the module exams test bank) (2. Skill based on packet tracer)
 * Cisco Academy will give you 60% discount on the voucher (Really dont need this if you use MCCOOL)
-* 
