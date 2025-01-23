@@ -15,6 +15,10 @@
 * `exit` - Takes you back one section
 * `logging synchronous` - Stops Pop-Up Messages
 * `exec-timout <0-35791>` - Changes the timeout in minutes (0 will disable completely)
+* `service password-encryption` - Encrypts plaintext passwords
+* `service timestamps log datetime msec` - Configures the system to include precise timestamps with millisecond resolution in syslog messages
+* `copy running-config startup-config` - Copy Running-Config to Startup-Config (press enter to accept the destination file)
+* `show flash` - It shows the operating system of the switch (NVRAM Directory)
 #### Configuring a Password
 ```
 enable
@@ -46,3 +50,8 @@ enable secret class    # Sets password for exec to "class"
 * `Down Arrow or Ctrl+N` - Goes to the next line in the the history buffer.
 * `Ctrl+R or Ctrl+I or Ctrl+L` -	Redisplays the system prompt and command line after a console message is received.
 * `CTRL+SHIFT+6` - Abort
+## Router Configuration
+* `transport input ssh` - Allows SSH connection
+* `show ip interface brief` - Displays interfaces and associated IPs
+* `show ip route` - Displays contents of the IP routing tables
+* `show interfaces` - Displays statistics for all interfaces
