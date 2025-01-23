@@ -31,7 +31,7 @@ enable secret class    # Sets password for exec to "class"
 ## Shortcuts
 * `Tab`	- Completes a partial command name entry.
 * `Backspace` - Erases the character to the left of the cursor.
-* `Ctrl+D`	- Erase s the character at the cursor.
+* `Ctrl+D`	- Erases the character at the cursor.
 * `Ctrl+K` - Erases all characters from the cursor to the end of the command line.
 * `Esc D`	- Erases all characters from the cursor to the end of the word.
 * `Ctrl+U or Ctrl+X` - Erases all characters from the cursor back to the beginning of the command line.
@@ -42,6 +42,7 @@ enable secret class    # Sets password for exec to "class"
 * `Esc F`	- Moves the cursor forward one word to the right.
 * `Right Arrow or Ctrl+F` -	Moves the cursor one character to the right.
 * `Ctrl+E` - Moves the cursor to the end of command line.
-* `Up` - Arrowor Ctrl+P	Recalls the previous command in the history buffer, beginning with the most recent command.
-* `Down` - Arrowor Ctrl+N	Goes to the next line in the the history buffer.
+* `Up Arrow or Ctrl+P` - Recalls the previous command in the history buffer, beginning with the most recent command.
+* `Down Arrow or Ctrl+N` - Goes to the next line in the the history buffer.
 * `Ctrl+R or Ctrl+I or Ctrl+L` -	Redisplays the system prompt and command line after a console message is received.
+* `CTRL+SHIFT+6` - Abort
