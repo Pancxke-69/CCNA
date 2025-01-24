@@ -26,10 +26,10 @@
 * ITU - Video compression and broadband connections (Oldest open standards body)
 * TIA - Cabling Standards and physical equiptment standards (Works together with EIA)
 #### OSI Model and TCP/IP Model
-* Application - Application
-* Presentation - Application
-* Session - Application
-* Transport - Transport
-* Network - Internet
-* Data Link - Network Access
-* Physical - Network Access
+* Application  -  Application
+* Presentation -  Application
+* Session      -  Application
+* Transport    -  Transport
+* Network      -  Internet
+* Data Link    -  Network Access
+* Physical     -  Network Access
