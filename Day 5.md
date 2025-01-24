@@ -53,6 +53,6 @@
 * Unique - FC00:: Slightly similar to private IPv4 addresses. They are routable throughout your organization, but not the internet
 * Embedded - When you convert an IPv4 address into a v6 address, you can embed it
 #### Subnetting IPv6
-- Global Routing Prefix - First 48 bits
+- Global Routing Prefix - First 48 bits (Assigned to you by ISP "Customer ID")
 - Subnet ID - Next 16 bits
 - Interface ID - Next 64 bits
