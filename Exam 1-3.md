@@ -16,3 +16,5 @@
 * BYOD
 #### At which OSI layer is a destination port number added to a PDU during the encapsulation process?
 * data link layer
+#### Which statement accurately describes a TCP/IP encapsulation process when a PC is sending data to the network?
+* Segments are sent from the transport layer to the internet layer
