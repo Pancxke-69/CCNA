@@ -12,3 +12,7 @@
 #### Refer to the exhibit. ServerB is attempting to contact HostA. Which two statements correctly identify the addressing that ServerB will generate in the process? (Choose two.)
 * ServerB will generate a frame with the destination MAC address of RouterB.
 * ServerB will generate a packet with the destination IP address of HostA.
+#### What term describes the ability to use personal devices across a business or campus network?
+* BYOD
+#### At which OSI layer is a destination port number added to a PDU during the encapsulation process?
+* data link layer
