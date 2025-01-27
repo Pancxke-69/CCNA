@@ -3,6 +3,7 @@
 #### Multicast Addresses
 * Router Soliciation (Sent to ALL IPv6 ROUTERS) - FF02::2
 * Router Advertisement (Sent to ALL IPv6 NODES) - FF02::1
+## Dynamicly created Interface ID vs Randomly Generated ID
 #### EUI-64 Process
 * Ethernet MAC addresses are usually represented in hexadecimal and are made up of two parts:
   * **Organizationally Unique Identifier (OUI)** - The OUI is a 24-bit (6 hexadecimal digits) vendor code assigned by IEEE.
