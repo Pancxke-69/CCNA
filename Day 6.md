@@ -3,6 +3,15 @@
 #### Multicast Addresses
 * Router Soliciation (Sent to ALL IPv6 ROUTERS) - FF02::2
 * Router Advertisement (Sent to ALL IPv6 NODES) - FF02::1
+## 3 Methods for RA Messages (Router --> Nodes)
+* **SLAAC** - "I have everything you need including the prefix, prefix length, and default gateway address."
+  * SLAAC is a method that allows a device to create its own GUA without the services of DHCPv6. Using SLAAC, devices rely on the ICMPv6 RA messages of the local router to obtain the necessary information.
+* **SLAAC with a stateless DHCPv6 server** - "Here is my information but you need to get other information such as DNS addresses from a stateless DHCPv6 server."
+  * A stateless DHCPv6 server distributes DNS server addresses and domain names. It does not allocate GUAs.
+* **Stateful DHCPv6 (no SLAAC)** - "I can give you your default gateway address. You need to ask a stateful DHCPv6 server for all your other information."
+  * A device can automatically receive its addressing information including a GUA, prefix length, and the addresses of DNS servers from a stateful DHCPv6 server.
+
+
 ## Dynamicly created Interface ID vs Randomly Generated ID
 #### EUI-64 Process
 * Ethernet MAC addresses are usually represented in hexadecimal and are made up of two parts:
