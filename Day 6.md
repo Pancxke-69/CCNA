@@ -1,9 +1,11 @@
 ## Router Solicitation and Router Advertisements
 * IPv6 routers periodically send out ICMPv6 RA messages, every 200 seconds, to all IPv6-enabled devices on the network.
+* This whole setup makes it easy to plug and play devices on the network. All you need to do is configure the router and all the nodes on the network will revieve info on how to configure themselves.
+* `ipv6 unicast-routing` enables dynamic addressing
 #### Multicast Addresses
 * Router Soliciation (Sent to ALL IPv6 ROUTERS) - FF02::2
 * Router Advertisement (Sent to ALL IPv6 NODES) - FF02::1
-## 3 Methods for RA Messages (Router --> Nodes)
+## 3 Methods for RA Messages (Router --> Nodes) #2 is Prefered
 `RA Contains a bit, and that bit is what says what method it is using`
 * **SLAAC** - "I have everything you need including the prefix, prefix length, and default gateway address."
   * SLAAC is a method that allows a device to create its own GUA without the services of DHCPv6. Using SLAAC, devices rely on the ICMPv6 RA messages of the local router to obtain the necessary information.
@@ -50,3 +52,5 @@
        Default Gateway . . . . . . . . . : fe80::1
     C:\>
 ```
+## Solicited Node IPv6 Multicast Addresses
+* Similar to "All-Nodes Multicast". It allows the nodes to look at the Destination MAC in the layer 2 portion of the header (Ethernet) and immediately know who the multicast is for.
