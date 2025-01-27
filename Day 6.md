@@ -4,6 +4,7 @@
 * Router Soliciation (Sent to ALL IPv6 ROUTERS) - FF02::2
 * Router Advertisement (Sent to ALL IPv6 NODES) - FF02::1
 ## 3 Methods for RA Messages (Router --> Nodes)
+`RA Contains a bit, and that bit is what says what method it is using`
 * **SLAAC** - "I have everything you need including the prefix, prefix length, and default gateway address."
   * SLAAC is a method that allows a device to create its own GUA without the services of DHCPv6. Using SLAAC, devices rely on the ICMPv6 RA messages of the local router to obtain the necessary information.
 * **SLAAC with a stateless DHCPv6 server** - "Here is my information but you need to get other information such as DNS addresses from a stateless DHCPv6 server."
