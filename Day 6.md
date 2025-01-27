@@ -54,3 +54,23 @@
 ```
 ## Solicited Node IPv6 Multicast Addresses
 * Similar to "All-Nodes Multicast". It allows the nodes to look at the Destination MAC in the layer 2 portion of the header (Ethernet) and immediately know who the multicast is for.
+## Data Link Layer
+* Enables upper layers to access the media
+* Accepts data (Layer 3 packets) and encapsulates them into layer 2 frames
+* Controls how data is placed on the media and how it is taken off of the media.
+#### LAN/MAN Sublayers
+* **Logical Link Control(LLC)** - Commumicates between networking software at the upper layers and the device hardware at the lower layers
+* **Media Access Control(MAC)** - Responsible for data encapsulation and media access control. Provides data link layer addressing and it is integrated with various physical layer tech.
+#### Providing Access to the Media
+* At each hop along the path, the router performs the following layer 2 functions:
+  * Accepts a frame from a medium
+  * De-Encapsulates the frame
+  * Re-Encapsulates the packet into a new frame
+  * Forwards the new frame appropriate to the medium of that segment of the physical network
+
+
+
+
+
+
+
