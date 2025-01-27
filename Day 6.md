@@ -15,3 +15,27 @@
     Step 3: Flip the u/I bit      (1111 1110:1001 1001:0100 0111:1111 1111:1111 1110:1111 0101:1100 1110:1110 0000)
     Modified (fe:99:47:ff:fe:75:ce:e0)
 ```
+* Example
+```
+    C:\> ipconfig
+    Windows IP Configuration
+    Ethernet adapter Local Area Connection:
+       Connection-specific DNS Suffix  . :
+       IPv6 Address. . . . . . . . . . . : 2001:db8:acad:1:fc99:47ff:fe75:cee0
+       Link-local IPv6 Address . . . . . : fe80::fc99:47ff:fe75:cee0
+       Default Gateway . . . . . . . . . : fe80::1
+    C:\>
+```
+#### Random 64-Bit Generated ID
+* To ensure there are no duplicate IDs, the client will send out a DAD (Duplicate Address Detection) that is similar to ARP. If there is no reply then the address is unique.
+* Example
+```
+    C:\> ipconfig
+    Windows IP Configuration
+    Ethernet adapter Local Area Connection:
+       Connection-specific DNS Suffix  . :
+       IPv6 Address. . . . . . . . . . . : 2001:db8:acad:1:50a5:8a35:a5bb:66e1
+       Link-local IPv6 Address . . . . . : fe80::50a5:8a35:a5bb:66e1
+       Default Gateway . . . . . . . . . : fe80::1
+    C:\>
+```
