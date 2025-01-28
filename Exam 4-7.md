@@ -62,3 +62,6 @@
 * Q: Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)
 * A: Provides synchronization between source and target nodes.
 * A: Adds Layer 2 control information to network protocol data.
+##
+* Q: What OSI physical layer term describes the process by which one wave modifies another wave?
+* A: Modulation
