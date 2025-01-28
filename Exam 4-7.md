@@ -1,24 +1,24 @@
 * Q: What OSI physical layer term describes the capacity at which a medium can carry data?
 * A: Bandwidth
-
+##
 * Q: Which media communication type does not require media arbitration in the data link layer?
 * A: Full-duplex
-
+##
 * Q: During the encapsulation process, what occurs at the data link layer for a PC connected to an Ethernet network?
 * A: The physical address is added.
-
+##
 * Q: Which statement is true about the CSMA/CD access method that is used in Ethernet?
 * A: All network devices must listen before transmitting.
-
+##
 * Q: What three items are contained in an Ethernet header and trailer?
 * A: Destination MAC address
 * A: Source MAC address
 * A: Error-checking information
-
+##
 * Q: Which two statements describe the services provided by the data link layer?
 * A: It packages various Layer 3 PDUs into a frame format that is compatible with the network interface.
 * A: It manages the access of frames to the network media.
-
+##
 * Q: What is the function of the CRC value that is found in the FCS field of a frame?
 * A: To verify the integrity of the received frame.
 
