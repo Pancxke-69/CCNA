@@ -156,3 +156,11 @@
 - [ ] The computer has an invalid IP address.
 - [x] The computer has an invalid default gateway address.
 - [ ] The computer has an incorrect subnet mask.
+
+### When transporting data from real-time applications, such as streaming audio and video, which field in the IPv6 header can be used to inform the routers and switches to maintain the same path for the packets in the same conversation?  
+- [ ] Traffic Class  
+- [x] Flow Label  
+- [ ] Differentiated Services  
+- [ ] Next Header  
+
+---
