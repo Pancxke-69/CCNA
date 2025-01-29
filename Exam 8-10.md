@@ -174,3 +174,11 @@
 - [ ] It provides a next-hop address for all traffic that flows through the switch.  
 
 ---
+
+### Which statement describes the treatment of ARP requests on the local link?  
+- [ ] They are received and processed only by the target device.  
+- [ ] They must be forwarded by all routers on the local network.  
+- [x] They are received and processed by every device on the local network.  
+- [ ] They are dropped by all switches on the local network.  
+
+---
