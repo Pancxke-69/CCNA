@@ -99,3 +99,24 @@
 * Q: Which switching method has the lowest level of latency?
 * A: Fast-forward
 ##
+* Q: What are two characteristics of fiber-optic cable? (Choose two.)
+* A: It is more expensive than UTP cabling is.
+* A: It is not affected by EMI or RFI.
+##
+* Q: A network administrator is connecting two modern switches using a straight-through cable. The switches are new and have never been configured. Which three statements are correct about the final result of the connection? (Choose three.)
+* A: The link between switches will work as full-duplex.
+* A: The auto-MDIX feature will configure the interfaces eliminating the need for a crossover cable.
+* A: The link between the switches will work at the fastest speed that is supported by both switches.
+##
+* Q: Which two functions are performed at the LLC sublayer of the OSI data link layer? (Choose two.)
+* A: Places information in the frame that identifies which network layer protocol is being used for the frame.
+* A: Enables IPv4 and IPv6 to utilize the same network interface and media.
+##
+* Q: Which statement describes an extended star topology?
+* A: End devices connect to a central intermediate device, which in turn connects to other central intermediate devices.
+##
+* Q: What is a characteristic of the LLC sublayer?
+* A: It places information in the frame allowing multiple Layer 3 protocols to use the same network interface and media.
+##
+* Q: During the encapsulation process, what occurs at the data link layer for a PC connected to an Ethernet network?
+* A: The physical address is added.
