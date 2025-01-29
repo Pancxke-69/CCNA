@@ -157,10 +157,20 @@
 - [x] The computer has an invalid default gateway address.
 - [ ] The computer has an incorrect subnet mask.
 
+---
+
 ### When transporting data from real-time applications, such as streaming audio and video, which field in the IPv6 header can be used to inform the routers and switches to maintain the same path for the packets in the same conversation?  
 - [ ] Traffic Class  
 - [x] Flow Label  
 - [ ] Differentiated Services  
 - [ ] Next Header  
+
+---
+
+### Within a production network, what is the purpose of configuring a switch with a default gateway address?  
+- [ ] Hosts that are connected to the switch can use the switch default gateway address to forward packets to a remote destination.  
+- [ ] A switch must have a default gateway to be accessible by Telnet and SSH.  
+- [x] The default gateway address is used to forward packets originating from the switch to remote networks.  
+- [ ] It provides a next-hop address for all traffic that flows through the switch.  
 
 ---
