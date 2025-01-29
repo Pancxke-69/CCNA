@@ -61,7 +61,41 @@
 ##
 * Q: Which two functions are performed at the MAC sublayer of the OSI data link layer? (Choose two.)
 * A: Provides synchronization between source and target nodes.
-* A: Adds Layer 2 control information to network protocol data.
+* A: Implements a trailer to detect transmission errors.
 ##
 * Q: What OSI physical layer term describes the process by which one wave modifies another wave?
 * A: Modulation
+##
+* Q: What makes fiber preferable to copper cabling for interconnecting buildings? (Choose three.)
+* A: Greater distances per cable run
+* A: Limited susceptibility to EMI/RFI
+* A: Greater bandwidth potential
+##
+* Q: What action will occur if a host receives a frame with a destination MAC address it does not recognize?
+* A: The host will discard the frame.
+##
+* Q: What is a primary role of the Physical layer in transmitting data on the network?
+* A: Create the signals that represent the bits in each frame on to the media.
+##
+* Q: Which two devices commonly affect wireless networks? (Choose two.)
+* A: Cordless phones
+* A: Microwaves
+##
+* Q: A network team is comparing physical WAN topologies for connecting remote sites to a headquarters building. Which topology provides high availability and connects some, but not all, remote sites?
+* A: partial mesh
+##
+* Q: Which three basic parts are common to all frame types supported by the data link layer? (Choose three.)
+* A: Header
+* A: Data
+* A: Trailer
+##
+* Q: Which statement describes a characteristic of the frame header fields of the data link layer?
+* A: They vary depending on protocols.
+##
+* Q: Which two fields or features does Ethernet examine to determine if a received frame is passed to the data link layer or discarded by the NIC? (Choose two.)
+* A: Minimum frame size
+* A: Frame Check Sequence
+##
+* Q: Which switching method has the lowest level of latency?
+* A: Fast-forward
+##
