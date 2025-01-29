@@ -1,5 +1,3 @@
-## Networking Multiple Choice Questions
-
 ### What are two functions of NVRAM? (Choose two.)
 - [ ] to store the ARP table
 - [x] to store the startup configuration file
