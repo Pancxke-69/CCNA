@@ -120,3 +120,8 @@
 ##
 * Q: During the encapsulation process, what occurs at the data link layer for a PC connected to an Ethernet network?
 * A: The physical address is added.
+### What are three ways that media access control is used in networking? (Choose three.)
+- [x] Ethernet utilizes CSMA/CD.  
+- [x] Media access control provides placement of data frames onto the media.  
+- [x] Data link layer protocols define the rules for access to different media.  
+---
